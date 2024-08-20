@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
 <body>
-    <nav class="navbar bg-light ">
+    <nav class="navbar bg-success ">
         <div class="container-fluid d-flex justify-content-around">
-          <a class="navbar-brand">NOVAVI</a>
+          <a class="navbar-brand text-light">NOVAVI</a>
           <form class="d-flex" role="search">
             <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
           </form>
           <div class="a">
-            <button class="btn btn-outline-success w-100 me-0" type="submit">Add Employee</button>
+            <button class="btn btn-outline-success w-100 me-0 bg-light text-danger" type="submit">Add Employee</button>
           </div>
         </div>
       </nav>
-      <table class="table">
+      <table class="table mt-5" id="table">
         <thead>
           <tr>
             <th scope="col">EMPID</th>
@@ -29,26 +29,9 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-            <td>MMMM</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
         </tbody>
       </table>
       <script src="./js/bootstrap.bundle.min.js"></script>
+      <script src="./js/index.js"></script>
 </body>
 </html>
